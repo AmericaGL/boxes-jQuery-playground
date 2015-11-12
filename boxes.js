@@ -8,6 +8,8 @@ $(document).ready(function() {
     $("#row4").find("div:last").removeClass("boxType1 box");
 //4. Change all red boxes to white.
 	$(".boxType1").css("background", "white");
+//Get the first two divs in the second row. Take away all styling from the divs.
+	$("#row2").removeClass("div:");
 // append("<h1>secretbox</h1>")
 });
 
