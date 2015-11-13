@@ -33,6 +33,11 @@ $(document).ready(function() {
 	// //For all box divs, add a click handler that adds an image of a cute puppy to the box. 
 	// //If the image is clicked again, remove the cute puppy. */
 	// //am i missing a variable? or variables?
+	//the question mark is a shortcut 
+	//if (url == "")
+    //load("1");
+	//else
+    //load(url);
 	var currentPic;
 	var newPic;
 	$('.box').click(function(e) { 
@@ -41,4 +46,13 @@ $(document).ready(function() {
 	  currentPic = $(this).css('background-image');	
 	  $(this).css('background-image', currentPic === 'none' ? 'url(cute-puppy.jpeg)' : 'none');
 	 });
+	//Write a click handler on the conatainer div. 
+	// The click handler should turn the container background 
+	// to black and the background of the original div that was 
+	// clicked to white. If the user original div that was clicked
+	//  happened to be the container div, change the background of 
+	//  he container div to lime green. You should not use any 
+	//  selectors for this exercise. You can do it completely 
+	//  with what is given to you in the event callback.
+	$('#container').
 });
